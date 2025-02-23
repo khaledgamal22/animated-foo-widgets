@@ -22,7 +22,8 @@ class _HomeViewState extends State<HomeView> {
                 height: 30,
               ),
               AnimatedContainer(
-                duration: Duration(seconds: 1),
+                duration: Duration(seconds: 2),
+                curve: Curves.bounceInOut,
                 width: _dimansion,
                 height: _dimansion,
                 color: _color,
